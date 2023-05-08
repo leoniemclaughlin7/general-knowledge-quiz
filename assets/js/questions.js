@@ -1,58 +1,59 @@
 // questions for the quiz 
 const quizQuestion = [
+
     {
         question: "What 90s boy band member bought Myspace in 2011?",
-        answer: "Justin Timberlake",
-        options: [
-            "Nick Lachey",
-            "Justin Timberlake",
-            "Shawn Stockmn",
-          "AJ McLean"
-        ]
+        answers: {
+            a: "Nick Lachey",
+            b: "Justin Timberlake",
+            c: "Shawn Stockmn",
+            d: "AJ McLean"
+        },
+        correctAnswer: "b"
     },
 
-     {
+    {
         question: "What is the most visited tourist attraction in the world?",
-        answer: "Eiffel Tower",
-        options: [
-            "Eiffel Tower",
-            "Statue of Liberty",
-            "Great Wall of China",
-            "Colosseum"
-        ]
+        answers: {
+            a: "Eiffel Tower",
+            b: "Statue of Liberty",
+            c: "Great Wall of China",
+            d: "Colosseum"
+        },
+        correctAnswer: "a"
     },
 
-     {
+    {
         question: "What’s the name of Hagrid’s pet spider?",
-        answer: "Aragog",
-        options: [
-            "Nigini",
-            "Crookshanks",
-            "Aragog",
-            "Mosag"
-        ]
+        answers: {
+            a: "Nigini",
+            b: "Crookshanks",
+            c: "Aragog",
+            d: "Mosag"
+        },
+        correctAnswer: "c"
     },
 
-     {
+    {
         question: "What’s the heaviest organ in the human body?",
-        answer: "Liver",
-        options: [
-            "Skin",
-            "Heart",
-            "Liver",
-            "Brain"
-        ]
+        answers: {
+            a: "Skin",
+            b: "Heart",
+            c: "Liver",
+            d: "Brain"
+        },
+        correctAnswer: "c"
     },
 
     {
         question: "Which of these EU countries does not use the euro as its currency?",
-        answer: "All of the above",
-        options: [
-            "Poland",
-            "Denmark",
-            "Sweden",
-            "All of the above"
-        ]
+        answers: {
+            a: "Poland",
+            b: "Denmark",
+            c: "Sweden",
+            d: "All of the above"
+        },
+        correctAnswer: "d"
     },
 
 ];
