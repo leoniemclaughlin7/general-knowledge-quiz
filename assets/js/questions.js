@@ -9,7 +9,7 @@ const quizQuestion = [
              "Shawn Stockmn",
             "AJ McLean"
         ],
-        correctAnswer: "Justin Timberlake"
+        correctAnswer: 1
     },
 
     {
@@ -20,7 +20,7 @@ const quizQuestion = [
             "Great Wall of China",
              "Colosseum"
         ],
-        correctAnswer: "Eiffel Tower"
+        correctAnswer: 0
     },
 
     {
@@ -31,7 +31,7 @@ const quizQuestion = [
              "Aragog",
              "Mosag"
         ],
-        correctAnswer: "Aragog"
+        correctAnswer: 2
     },
 
     {
@@ -42,18 +42,18 @@ const quizQuestion = [
             "Liver",
             "Brain"
         ],
-        correctAnswer: "Liver"
+        correctAnswer: 2
     },
 
     {
         question: "Which of these EU countries does not use the euro as its currency?",
         answers: [
-             "Poland",
-             "Denmark",
+            "Poland",
+            "Denmark",
             "Sweden",
-             "All of the above"
+            "All of the above"
         ],
-        correctAnswer: "All of the above"
+        correctAnswer: 3
     },
 
 ];

@@ -1,21 +1,17 @@
-const quizArea = document.getElementById('quiz-area');
-const answerBtn = document.getElementById("answer-btn");
+let question = document.getElementById('question');
+let answers = document.querySelectorAll('.answers'); 
 
-
-function showQuestion(index){
-	let question = '<div class="question">' + quizQuestion[index].question + '</div>'
-	quizArea.innerHTML = question;
-    
-    let answers = '<button class="answer-btn"><span>'+ quizQuestion[index].answers[0] +'</span></button>'
-    + '<button class="answer-btn"><span>'+ quizQuestion[index].answers[1] +'</span></button>'
-    + '<button class="answer-btn"><span>'+ quizQuestion[index].answers[2] +'</span></button>'
-    + '<button class="answer-btn"><span>'+ quizQuestion[index].answers[3] +'</span></button>';
-	answerBtn.innerHTML = answers;
+function showQuestion(quizQ){
+    question.textContent = quizQ[0].question;
+    answers.forEach(function (element, index){
+        element.textContent = quizQ[0].answers[index];
+    });
 
 }
 
+showQuestion(quizQuestion);
 
-showQuestion(0);
+
 
 
 
