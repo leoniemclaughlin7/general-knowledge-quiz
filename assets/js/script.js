@@ -1,15 +1,40 @@
 let question = document.getElementById('question');
 let answers = document.querySelectorAll('.answers'); 
 
-function showQuestion(quizQ){
-    question.textContent = quizQ[0].question;
+let questionCounter = 0;
+let availableQuestions = [];
+let score = 0;
+
+function showQuestion(quizQ, qCount){
+    question.textContent = quizQ[qCount].question;
     answers.forEach(function (element, index){
-        element.textContent = quizQ[0].answers[index];
+        element.textContent = quizQ[qCount].answers[index];
+
+        element.addEventListener('click', function(){
+            if(quizQ[qCount].correctAnswer === index){
+                element.style.color = 'green';
+                score++;
+                nextQuestion();
+            }else {
+                element.style.color = 'red';
+                nextQuestion();
+            }
+        });
+
     });
 
 }
 
-showQuestion(quizQuestion);
+function nextQuestion(){
+    questionCounter++;
+     if(questionCounter < quizQuestion.length){
+    showQuestion(quizQuestion, questionCounter);
+  }
+}
+
+showQuestion(quizQuestion,0);
+
+
 
 
 
