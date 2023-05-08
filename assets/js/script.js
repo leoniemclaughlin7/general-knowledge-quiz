@@ -1,27 +1,24 @@
 const quizArea = document.getElementById('quiz-area');
-const results = document.getElementById('results');
-const submitBtn = document.getElementById('submit');
+const answerBtn = document.getElementById("answer-btn");
 
-function showQuestions(){
-	var output = [];
-	var answers;
-	for(var i=0; i<quizQuestion.length; i++){
-		answers = [];
-		for(option in quizQuestion[i].answers){
-			answers.push(
-				'<label>'
-					+ '<input type="radio" name="question'+i+'" value="'+option+'">'
-					+ option + ': '
-					+ quizQuestion[i].answers[option]
-				+ '</label>'
-			);
-		}
-		output.push(
-			'<div class="question">' + quizQuestion[i].question + '</div>'
-			+ '<div class="answers">' + answers.join('') + '</div>'
-		);
-	}
-	quizArea.innerHTML = output.join('');
+
+function showQuestion(index){
+	let question = '<div class="question">' + quizQuestion[index].question + '</div>'
+	quizArea.innerHTML = question;
+    
+    let answers = '<button class="answer-btn"><span>'+ quizQuestion[index].answers[0] +'</span></button>'
+    + '<button class="answer-btn"><span>'+ quizQuestion[index].answers[1] +'</span></button>'
+    + '<button class="answer-btn"><span>'+ quizQuestion[index].answers[2] +'</span></button>'
+    + '<button class="answer-btn"><span>'+ quizQuestion[index].answers[3] +'</span></button>';
+	answerBtn.innerHTML = answers;
+
 }
 
-showQuestions();
+
+showQuestion(0);
+
+
+
+
+
+
