@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+#quiz-area {
+    /* display: flex; */
+    background-color: #f60e35;
+    max-width: 400px;
+    padding: 30px;
+    margin: 5px auto 0;
+    border-radius: 15px;
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+}
