@@ -3,27 +3,13 @@ let answers = document.querySelectorAll('.answers');
 let scores = document.getElementById("score");
 
 let questionCounter = 0;
-let availableQuestions = [];
 let score = 0;
 
 function showQuestion(quizQ, qCount) {
     question.textContent = quizQ[qCount].question;
     answers.forEach(function (element, index) {
         element.textContent = quizQ[qCount].answers[index];
-
-        element.addEventListener('click', function () {
-            if (quizQ[qCount].correctAnswer === index) {
-                element.style.color = 'green';
-                score++;
-                nextQuestion();
-            } else {
-                element.style.color = 'red';
-                nextQuestion();
-            }
-        });
-
     });
-
 }
 
 function nextQuestion() {
@@ -37,6 +23,24 @@ function nextQuestion() {
 function showScore() {
     scores.innerHTML = score;
 }
+
+function getAnswer() {
+    answers.forEach(function (element, index) {
+        element.addEventListener('click', function () {
+            if (quizQ[qCount].correctAnswer === index) {
+                element.style.color = 'green';
+                score++;
+            } else {
+                element.style.color = 'red';
+            }
+        });
+
+    });
+}
+
+
+
+
 
 showQuestion(quizQuestion, 0);
 
