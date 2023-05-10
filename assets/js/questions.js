@@ -9,7 +9,7 @@ const quizQuestion = [
             "Shawn Stockmn",
             "AJ McLean"
         ],
-        correctAnswer: 1
+        correctAnswer: "Justin Timberlake"
     },
 
     {
@@ -20,7 +20,7 @@ const quizQuestion = [
             "Great Wall of China",
             "Colosseum"
         ],
-        correctAnswer: 0
+        correctAnswer: "Eiffel Tower"
     },
 
     {
@@ -31,7 +31,7 @@ const quizQuestion = [
             "Aragog",
             "Mosag"
         ],
-        correctAnswer: 2
+        correctAnswer: "Aragog"
     },
 
     {
@@ -42,7 +42,7 @@ const quizQuestion = [
             "Liver",
             "Brain"
         ],
-        correctAnswer: 2
+        correctAnswer: "Liver"
     },
 
     {
@@ -53,7 +53,7 @@ const quizQuestion = [
             "Sweden",
             "All of the above"
         ],
-        correctAnswer: 3
+        correctAnswer: "All of the above"
     },
 
     {
@@ -64,7 +64,7 @@ const quizQuestion = [
             "Salt",
             "Gold"
         ],
-        correctAnswer: 3
+        correctAnswer: "Gold"
     },
 
     {
@@ -75,7 +75,7 @@ const quizQuestion = [
             "Kinky Boots",
             "Hamilton"
         ],
-        correctAnswer: 0
+        correctAnswer: "The Lion King"
     },
 
     {
@@ -86,7 +86,7 @@ const quizQuestion = [
             "400",
             "500"
         ],
-        correctAnswer: 1
+        correctAnswer: "200"
     },
 
     {
@@ -97,7 +97,7 @@ const quizQuestion = [
             "Subway",
             "McDonald’s"
         ],
-        correctAnswer: 2
+        correctAnswer: "Subway"
     },
 
     {
@@ -108,6 +108,6 @@ const quizQuestion = [
             "Central Park Coffee",
             "Central Park Roastery"
         ],
-        correctAnswer: 0
+        correctAnswer: "Central Perk"
     },
 ];
