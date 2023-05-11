@@ -49,6 +49,11 @@ function getAnswer() {
         this.classList.add('correct');
     } else {
         this.classList.add('incorrect');
+        for (i = 0; i < answers.length; i++) {
+            if (answers[i].innerText === quizQuestion[questionCounter].correctAnswer) {
+                answers[i].classList.add('correct');
+            }
+        }
     }
 
 }
