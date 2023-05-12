@@ -60,21 +60,28 @@ function getAnswer() {
 }
 
 /**
- * Resets answers back to default 
+ * Resets answers back to default, hides next question button. 
  */
 function resetAnswers() {
     for (let i = 0; i < answers.length; i++) {
         answers[i].classList.remove('correct');
         answers[i].classList.remove('incorrect');
-        answers[i].removeAttribute("disabled", "disabled");
+        answers[i].removeAttribute('disabled', 'disabled');
+        nextQ.classList.add('hidden');
     }
 }
 
+/**
+ * Disables answers after an answer has been picked
+ * and shows next question button
+ */
 function disableAnswers() {
     for (let i = 0; i < answers.length; i++) {
-        answers[i].setAttribute("disabled", "disabled");
+        answers[i].setAttribute('disabled', 'disabled');
     }
+    nextQ.classList.remove('hidden');
 }
+
 
 
 
