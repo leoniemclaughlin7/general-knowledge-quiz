@@ -1,7 +1,7 @@
 let question = document.getElementById('question');
 let answers = document.querySelectorAll('.answers');
 let scores = document.getElementById("score");
-let nextQ = document.getElementById('nextQ');
+let nextQ = document.getElementById('next-question');
 
 let questionCounter = 0;
 let score = 0;
