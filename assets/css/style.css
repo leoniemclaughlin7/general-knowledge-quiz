@@ -35,6 +35,7 @@ header {
     margin-bottom: 10px;
     background-color: #76c8f7;
     border-radius: 15px;
+    text-align: center;
 }
 
 #answer-area {

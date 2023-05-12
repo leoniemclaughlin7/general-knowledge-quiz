@@ -2,9 +2,11 @@ let question = document.getElementById('question');
 let answers = document.querySelectorAll('.answers');
 let scores = document.getElementById("score");
 let nextQ = document.getElementById('next-question');
+let timer = document.getElementById('count');
 
 let questionCounter = 0;
 let score = 0;
+var sec = 15;
 
 /**
  * Displays question to the user, code help from youtube tutorial. 
@@ -26,6 +28,7 @@ function nextQuestion() {
     if (questionCounter < quizQuestion.length) {
         showQuestion(quizQuestion, questionCounter);
         showScore();
+        setTimer();
     }
 }
 
@@ -82,6 +85,23 @@ function disableAnswers() {
     nextQ.classList.remove('hidden');
 }
 
+var time = setInterval(setTimer, 1000);
+function setTimer() {
+    timer.innerHTML = sec;
+    sec--;
+    if (sec === -1) {
+        clearInterval(time);
+        timer.innerHTML = '0';
+        sec = 15;
+        let correctAnswer = quizQuestion[questionCounter].correctAnswer;
+        for (i = 0; i < answers.length; i++) {
+            if (answers[i].innerText === correctAnswer) {
+                answers[i].classList.add('correct');
+            }
+        }
+        disableAnswers();
+    }
+}
 
 
 
