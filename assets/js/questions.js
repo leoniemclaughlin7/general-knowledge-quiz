@@ -110,4 +110,15 @@ const quizQuestion = [
         ],
         correctAnswer: "Central Perk"
     },
+
+    {
+        question: "“Cirque du Soleil” started in what country?",
+        answers: [
+            "France",
+            "USA",
+            "Canada",
+            "Russia"
+        ],
+        correctAnswer: "Canada"
+    },
 ];
