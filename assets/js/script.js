@@ -43,6 +43,7 @@ for (let i = 0; i < answers.length; i++) {
  * Displayes correct or incorrect answer to user 
  */
 function getAnswer() {
+    disableAnswers();
     let choosenAnswer = this.innerText;
     if (quizQuestion[questionCounter].correctAnswer === choosenAnswer) {
         score++;
@@ -63,10 +64,19 @@ function getAnswer() {
  */
 function resetAnswers() {
     for (let i = 0; i < answers.length; i++) {
-        answers[i].classList.remove("correct");
-        answers[i].classList.remove("incorrect");
+        answers[i].classList.remove('correct');
+        answers[i].classList.remove('incorrect');
+        answers[i].removeAttribute("disabled", "disabled");
     }
 }
+
+function disableAnswers() {
+    for (let i = 0; i < answers.length; i++) {
+        answers[i].setAttribute("disabled", "disabled");
+    }
+}
+
+
 
 
 showQuestion(quizQuestion, questionCounter);
