@@ -121,4 +121,104 @@ const quizQuestion = [
         ],
         correctAnswer: "Canada"
     },
+
+    {
+        question: "What is the main ingredient in a falafel?",
+        answers: [
+            "Lentil",
+            "Chickpea",
+            "Broccoli",
+            "Split pea"
+        ],
+        correctAnswer: "Chickpea"
+    },
+
+
+    {
+        question: "What color dresses do Chinese women traditionally wear on their wedding day?",
+        answers: [
+            "Blue",
+            "Gold",
+            "White",
+            "Red"
+        ],
+        correctAnswer: "Red"
+    },
+
+    {
+        question: "What sport has been played on the moon?",
+        answers: [
+            "Frisbee",
+            "Soccer",
+            "Golf",
+            "Baseball"
+        ],
+        correctAnswer: "Golf"
+    },
+
+    {
+        question: "What is the highest-grossing holiday movie of all time?",
+        answers: [
+            "Elf",
+            "Die Hard",
+            "It’s A Wonderful Life",
+            "Home Alone"
+        ],
+        correctAnswer: "Home Alone"
+    },
+
+    {
+        question: "The first vaccine was for which disease?",
+        answers: [
+            "Smallpox",
+            "Chickenpox",
+            "Polio",
+            "Measles"
+        ],
+        correctAnswer: "Smallpox"
+    },
+
+    {
+        question: "Which Beatle made Elton John the godfather of his son?",
+        answers: [
+            "Paul McCartney",
+            "John Lennon",
+            "Ringo Starr",
+            "George Harrison"
+        ],
+        correctAnswer: "John Lennon"
+    },
+
+    {
+        question: "The villains in the 2007 version of the movie “Transformers” are known as what?",
+        answers: [
+            "Decepticons",
+            "Storm Troopers",
+            "Death Eaters",
+            "Sentinels"
+        ],
+        correctAnswer: "Decepticons"
+    },
+
+    {
+        question: "Which cereal grain is the most commonly used in beer?",
+        answers: [
+            "Wheat",
+            "Barley",
+            "Hops",
+            "Rice"
+        ],
+        correctAnswer: "Barley"
+    },
+
+    {
+        question: "Which sea creature has three hearts?",
+        answers: [
+            "Shark",
+            "Jellyfish",
+            "Stingray",
+            "Octopus"
+        ],
+        correctAnswer: "Octopus"
+    },
 ];
