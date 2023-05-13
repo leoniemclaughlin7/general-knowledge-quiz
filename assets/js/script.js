@@ -28,6 +28,7 @@ function nextQuestion() {
     if (questionCounter < quizQuestion.length) {
         showQuestion(quizQuestion, questionCounter);
         showScore();
+        clearInterval(time);
         setTimer();
     }
 }
@@ -51,6 +52,7 @@ function getAnswer() {
     if (quizQuestion[questionCounter].correctAnswer === choosenAnswer) {
         score++;
         this.classList.add('correct');
+        clearInterval(time);
     } else {
         this.classList.add('incorrect');
         for (i = 0; i < answers.length; i++) {
@@ -58,6 +60,7 @@ function getAnswer() {
                 answers[i].classList.add('correct');
             }
         }
+        clearInterval(time);
     }
 
 }
@@ -85,24 +88,25 @@ function disableAnswers() {
     nextQ.classList.remove('hidden');
 }
 
-var time = setInterval(setTimer, 1000);
+let time;
 function setTimer() {
-    timer.innerHTML = sec;
-    sec--;
-    if (sec === -1) {
-        clearInterval(time);
-        timer.innerHTML = '0';
-        sec = 15;
-        let correctAnswer = quizQuestion[questionCounter].correctAnswer;
-        for (i = 0; i < answers.length; i++) {
-            if (answers[i].innerText === correctAnswer) {
-                answers[i].classList.add('correct');
+    time = setInterval(runTimer, 1000);
+    sec = 15;
+    function runTimer() {
+        timer.innerHTML = sec;
+        sec--;
+        if (sec === -1) {
+            clearInterval(time);
+            let correctAnswer = quizQuestion[questionCounter].correctAnswer;
+            for (i = 0; i < answers.length; i++) {
+                if (answers[i].innerText === correctAnswer) {
+                    answers[i].classList.add('correct');
+                }
             }
+            disableAnswers();
         }
-        disableAnswers();
     }
 }
-
 
 
 
