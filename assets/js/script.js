@@ -3,10 +3,24 @@ let answers = document.querySelectorAll('.answers');
 let scores = document.getElementById("score");
 let nextQ = document.getElementById('next-question');
 let timer = document.getElementById('count');
+let startBtn = document.getElementById('start-quiz');
+let quiz = document.getElementById('quiz-area');
+let rules = document.getElementById('rules-area');
 
 let questionCounter = 0;
 let score = 0;
 var sec = 15;
+
+startBtn.addEventListener('click', startQuiz);
+function startQuiz() {
+    quiz.classList.remove('hidden');
+    rules.classList.add('hidden');
+    showQuestion(quizQuestion, questionCounter);
+    showScore();
+    clearInterval(time);
+    setTimer();
+}
+
 
 /**
  * Displays question to the user, code help from youtube tutorial. 
@@ -110,7 +124,7 @@ function setTimer() {
 
 
 
-showQuestion(quizQuestion, questionCounter);
+
 
 
 
