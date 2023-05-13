@@ -56,6 +56,10 @@ header {
     border-radius: 15px;
 }
 
+button:disabled {
+    color: initial;
+}
+
 #next-question {
     width: 300px;
     height: 40px;
@@ -66,10 +70,12 @@ header {
 
 .correct {
     background-color: green;
+    font-weight: bold;
 }
 
 .incorrect {
     background-color: red;
+    font-weight: bold;
 }
 
 .hidden {

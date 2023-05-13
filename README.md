@@ -41,3 +41,4 @@ Happy coding!.
 credits
 MCQ https://travelswithelle.com/other/multiple-choice-trivia-questions/ 
 Tutorial on how to build a quiz https://www.youtube.com/watch?v=RswgVWKJRLM 
+timer <https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz>
