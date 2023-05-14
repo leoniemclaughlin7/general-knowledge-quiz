@@ -6,6 +6,8 @@ let timer = document.getElementById('count');
 let startBtn = document.getElementById('start-quiz');
 let quiz = document.getElementById('quiz-area');
 let rules = document.getElementById('rules-area');
+let result = document.getElementById('result-area');
+let finalScore = document.getElementById('final-score');
 
 let questionCounter = 0;
 let score = 0;
@@ -49,6 +51,8 @@ function nextQuestion() {
         showScore();
         clearInterval(time);
         setTimer();
+    } else {
+        showResult();
     }
 }
 
@@ -131,6 +135,11 @@ function setTimer() {
     }
 }
 
+function showResult() {
+    result.classList.remove('hidden');
+    quiz.classList.add('hidden');
+    finalScore.innerHTML = score;
+}
 
 
 
