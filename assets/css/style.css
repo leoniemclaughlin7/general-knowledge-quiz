@@ -111,10 +111,23 @@ button:disabled {
     margin: 40px auto 0;
     border-radius: 15px;
     text-align: center;
+    font-size: 125%;
 }
 
 #rules-list {
     list-style: none;
+}
+
+#rules-list li {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+#welcome-paragraph {
+    margin-bottom: 15px;
 }
 
 /* Start quiz button */
