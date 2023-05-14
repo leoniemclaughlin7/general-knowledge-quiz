@@ -10,8 +10,13 @@ let rules = document.getElementById('rules-area');
 let questionCounter = 0;
 let score = 0;
 var sec = 15;
+let time;
 
 startBtn.addEventListener('click', startQuiz);
+/**
+ * starts the quiz when the start quiz button is clicked
+ * hides the rules section and shows the quiz section. 
+ */
 function startQuiz() {
     quiz.classList.remove('hidden');
     rules.classList.add('hidden');
@@ -48,7 +53,7 @@ function nextQuestion() {
 }
 
 /**
- * Shows score to the user
+ * Shows score to the user.
  */
 function showScore() {
     scores.innerHTML = score;
@@ -58,7 +63,8 @@ for (let i = 0; i < answers.length; i++) {
     answers[i].addEventListener("click", getAnswer);
 }
 /**
- * Displayes correct or incorrect answer to user 
+ * Displayes correct or incorrect answer to user if user
+ * gets question wrong, will display the correct answer.  
  */
 function getAnswer() {
     disableAnswers();
@@ -102,7 +108,10 @@ function disableAnswers() {
     nextQ.classList.remove('hidden');
 }
 
-let time;
+/**
+ * Sets the timer, second function runs the timer and will show
+ * user correct answer if they have run out of time. 
+ */
 function setTimer() {
     time = setInterval(runTimer, 1000);
     sec = 15;
