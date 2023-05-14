@@ -8,6 +8,7 @@ let quiz = document.getElementById('quiz-area');
 let rules = document.getElementById('rules-area');
 let result = document.getElementById('result-area');
 let finalScore = document.getElementById('final-score');
+let restartBtn = document.getElementById('restart-quiz');
 
 let questionCounter = 0;
 let score = 0;
@@ -141,6 +142,18 @@ function showResult() {
     finalScore.innerHTML = score;
 }
 
+restartBtn.addEventListener('click', restartQuiz);
+function restartQuiz() {
+    result.classList.add('hidden');
+    quiz.classList.remove('hidden');
+    rules.classList.add('hidden');
+    score = 0;
+    questionCounter = 0;
+    showQuestion(quizQuestion, questionCounter);
+    showScore();
+    clearInterval(time);
+    setTimer();
+}
 
 
 
