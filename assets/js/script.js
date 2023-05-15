@@ -136,6 +136,9 @@ function setTimer() {
     }
 }
 
+/**
+ * Shows final score to user. 
+ */
 function showResult() {
     result.classList.remove('hidden');
     quiz.classList.add('hidden');
@@ -143,6 +146,10 @@ function showResult() {
 }
 
 restartBtn.addEventListener('click', restartQuiz);
+/**
+ * Restarts quiz once player has finished, sets user
+ * score to zero and resets the question counter. 
+ */
 function restartQuiz() {
     result.classList.add('hidden');
     quiz.classList.remove('hidden');
