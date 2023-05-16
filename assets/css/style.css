@@ -8,20 +8,27 @@ body {
     background-image: url('../images/question.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 
 header {
-    background-image: linear-gradient(to left, #f2e35f, rgba(123, 209, 248));
+    background-image: linear-gradient(to left, #496DDB, #717EC3);
+}
+
+header>a {
+    text-decoration: none;
 }
 
 #logo {
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: black;
 }
 
 #quiz-area {
-    background-color: rgba(123, 209, 248, 0.6);
+    background-color: rgba(174, 135, 153, 0.6);
     width: 500px;
     padding: 20px;
     margin: 20px auto 0;
@@ -33,7 +40,7 @@ header {
     justify-content: center;
     padding: 30px;
     margin-bottom: 10px;
-    background-color: #f2e35f;
+    background-color: #C95D63;
     border-radius: 15px;
     text-align: center;
 }
@@ -63,7 +70,7 @@ button:disabled {
 #next-question {
     width: 300px;
     height: 40px;
-    background-color: #f2e35f;
+    background-color: #EE8434;
     border-radius: 15px;
     margin: 20px 0 0 100px;
 }
@@ -105,7 +112,7 @@ button:disabled {
 /* Rules */
 
 #rules-area {
-    background-color: rgba(123, 209, 248);
+    background-color: #AE8799;
     width: 500px;
     padding: 20px;
     margin: 40px auto 0;
@@ -136,7 +143,7 @@ h2 {
 #restart-quiz {
     width: 300px;
     height: 40px;
-    background-color: #f2e35f;
+    background-color: #EE8434;
     border-radius: 15px;
     text-align: center;
     margin: 20px 0 0 30px;
@@ -145,7 +152,7 @@ h2 {
 /* Result area  */
 
 #result-area {
-    background-color: rgba(123, 209, 248);
+    background-color: #AE8799;
     width: 500px;
     padding: 20px;
     margin: 40px auto 0;
@@ -156,7 +163,7 @@ h2 {
 
 /* Footer */
 footer {
-    background-image: linear-gradient(to left, #f2e35f, rgba(123, 209, 248));
+    background-image: linear-gradient(to left, #496DDB, #717EC3);
     position: fixed;
     left: 0;
     bottom: 0;

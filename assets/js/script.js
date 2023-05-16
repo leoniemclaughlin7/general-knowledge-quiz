@@ -9,6 +9,7 @@ let rules = document.getElementById('rules-area');
 let result = document.getElementById('result-area');
 let finalScore = document.getElementById('final-score');
 let restartBtn = document.getElementById('restart-quiz');
+let questionC = document.getElementById('question-counter');
 
 let questionCounter = 0;
 let score = 0;
