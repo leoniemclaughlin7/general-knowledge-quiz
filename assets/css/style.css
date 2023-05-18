@@ -1,8 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-
 }
+
+/* Background image */
 
 body {
     background-image: url('../images/question.jpg');
@@ -12,6 +13,8 @@ body {
     height: 100vh;
 }
 
+/* Header */
+
 header {
     background-image: linear-gradient(to left, #496DDB, #717EC3);
 }
@@ -20,12 +23,16 @@ header>a {
     text-decoration: none;
 }
 
+/* Logo */
+
 #logo {
     display: flex;
     justify-content: center;
     padding: 20px;
     color: black;
 }
+
+/* Quiz area */
 
 #quiz-area {
     background-color: rgba(174, 135, 153, 0.6);
@@ -34,6 +41,8 @@ header>a {
     margin: 20px auto 0;
     border-radius: 15px;
 }
+
+/* Question area */
 
 #question-area {
     display: flex;
@@ -44,6 +53,8 @@ header>a {
     border-radius: 15px;
     text-align: center;
 }
+
+/* Answer area */
 
 #answer-area {
     display: flex;
@@ -63,9 +74,13 @@ header>a {
     border-radius: 15px;
 }
 
+/* Changes the default style of disabled buttons */
+
 button:disabled {
     color: initial;
 }
+
+/* Next question button */
 
 #next-question {
     width: 300px;
@@ -74,6 +89,8 @@ button:disabled {
     border-radius: 15px;
     margin: 20px 0 0 100px;
 }
+
+/* classes to display correct and incorrect answers as well as hiding and displaying content */
 
 .correct {
     background-color: green;
@@ -109,7 +126,7 @@ button:disabled {
     font-size: 150%;
 }
 
-/* Rules */
+/* Rules area */
 
 #rules-area {
     background-color: #AE8799;
