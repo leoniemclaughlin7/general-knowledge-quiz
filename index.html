@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FILL THIS IN">
-    <meta name="keywords" content="FILL THIS IN">
+    <meta name="description" content="A fun interactive online general knowledge quiz">
+    <meta name="keywords" content="Quiz, online quiz, general knowledge">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>General Knowledge Quiz</title>
 </head>
 
 <body>
     <main>
+        <!--Header to include clickable logo that navigates back to the home page once clicked-->
         <header>
             <a href="index.html" aria-label="Navigates to the home page">
                 <h1 id="logo">
@@ -21,7 +22,8 @@
                 </h1>
             </a>
         </header>
-        <div id="quiz-area" class="hidden">
+        <!--Quiz area, includes questions, answers, next question button and score area-->
+        <section id="quiz-area" class="hidden">
             <div id="count"></div>
             <div id="question-area">
                 <div id="question"></div>
@@ -36,7 +38,8 @@
             </div>
             <button id="next-question">Next Question</button>
             <div id="scores">Score:<span id="score">0</span></div>
-        </div>
+        </section>
+        <!--Quiz rules area. Welcomes the user to the quiz, explains the rules and includes start quiz button-->
         <section id="rules-area">
             <h2>Welcome</h2>
             <p id="welcome-paragraph">This is a fun interactive general knowledge quiz</p>
@@ -51,15 +54,17 @@
             <p><strong>Good Luck and have fun!</strong></p>
             <button id="start-quiz">Start Quiz</button>
         </section>
+        <!--Result area. Informs the user that the quiz has finnished and informs them of their score, also includes a restart quiz button-->
         <section id="result-area" class="hidden">
             <h3>You have completed the quiz</h3>
             <h3>Your final score was: <span id="final-score">0</span> out of 20!</h3>
             <button id="restart-quiz">Try again!</button>
         </section>
+        <!--Footer that includes link to my github-->
         <footer>
             <p>Designed by Leonie McLaughlin 2023 <a href="https://github.com/leoniemclaughlin7" target="_blank"
-                    rel="noopener" aria-label="Visit my github repository page, opens up in new tab"><i
-                        style="color: black;" class="fa-brands fa-github"></i></a></p>
+                    rel="noopener" aria-label="Visit my github page, opens up in new tab"><i style="color: black;"
+                        class="fa-brands fa-github"></i></a></p>
         </footer>
     </main>
     <!--Fontawesome script-->
