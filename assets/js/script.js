@@ -30,9 +30,8 @@ function startQuiz() {
     setTimer();
 }
 
-
 /**
- * Displays question to the user, code help from youtube tutorial. 
+ * Displays question and possible answers to the user, code help from youtube tutorial, link in readme.  
  */
 function showQuestion(quizQ, qCount) {
     question.textContent = quizQ[qCount].question;
@@ -44,7 +43,7 @@ function showQuestion(quizQ, qCount) {
 
 nextQ.addEventListener('click', nextQuestion);
 /**
- * Loads next question
+ * Loads next question. If last question will call showResult function.
  */
 function nextQuestion() {
     questionCounter++;
@@ -162,16 +161,3 @@ function restartQuiz() {
     clearInterval(time);
     setTimer();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
