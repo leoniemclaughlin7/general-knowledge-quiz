@@ -97,6 +97,7 @@ function resetAnswers() {
     for (let i = 0; i < answers.length; i++) {
         answers[i].classList.remove('correct');
         answers[i].classList.remove('incorrect');
+        answers[i].classList.add('hover');
         answers[i].disabled = false;
         nextQ.classList.add('hidden');
     }
@@ -109,6 +110,7 @@ function resetAnswers() {
 function disableAnswers() {
     for (let i = 0; i < answers.length; i++) {
         answers[i].disabled = true;
+        answers[i].classList.remove('hover');
     }
     nextQ.classList.remove('hidden');
 }
