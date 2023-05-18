@@ -106,6 +106,8 @@ button:disabled {
     display: none;
 }
 
+/* Hover effect on all buttons */
+
 .hover:hover {
     box-shadow: 0 14px 18px 0 #000000, 0 17px 50px 0 #000000;
 }
@@ -197,4 +199,70 @@ footer {
 footer>p {
     margin-top: 30px;
     font-size: 110%;
+}
+
+/* Media queries  */
+
+/* For screen size 595px and down */
+
+@media screen and (max-width: 595px) {
+
+    #quiz-area {
+        width: 300px;
+        font-size: 100%;
+    }
+
+    #next-question {
+        margin: 20px 0 0 3px;
+    }
+
+    #count {
+        margin: 0 0 20px 120px;
+    }
+
+    #rules-area {
+        width: 350px;
+        font-size: 100%;
+    }
+}
+
+/* For screen size 449px and down */
+
+@media screen and (max-width: 449px) {
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #rules-area {
+        width: 250px;
+        font-size: 80%;
+    }
+
+    #start-quiz {
+        width: 200px;
+        margin: 20px 0 0 15px;
+    }
+}
+
+/* For screen size 371px and down */
+
+@media screen and (max-width: 371px) {
+    #quiz-area {
+        width: 250px;
+        font-size: 80%;
+    }
+
+    .answers {
+        width: 225px;
+    }
+
+    #next-question {
+        width: 225px;
+        margin: 20px 0 0 12px;
+    }
+
+    #count {
+        margin: 0 0 20px 90px;
+    }
 }
