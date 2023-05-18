@@ -224,6 +224,15 @@ footer>p {
         width: 350px;
         font-size: 100%;
     }
+
+    #result-area {
+        width: 300px;
+        font-size: 100%;
+    }
+
+    #restart-quiz {
+        margin: 20px 0 0 3px;
+    }
 }
 
 /* For screen size 449px and down */
@@ -264,5 +273,19 @@ footer>p {
 
     #count {
         margin: 0 0 20px 90px;
+    }
+
+    #result-area {
+        width: 250px;
+        font-size: 80%;
+    }
+
+    #restart-quiz {
+        width: 225px;
+        margin: 20px 0 0 12px;
+    }
+
+    #logo {
+        font-size: 100%;
     }
 }
