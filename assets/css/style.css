@@ -289,3 +289,25 @@ footer>p {
         font-size: 100%;
     }
 }
+
+/* For screen height 730px and down */
+
+@media screen and (max-height: 730px) {
+
+    #quiz-area {
+        height: 410px;
+    }
+
+    .answers {
+        height: 30px;
+    }
+
+    #answer-pos {
+        gap: 1em;
+    }
+
+    #next-question {
+        height: 30px
+    }
+
+}
