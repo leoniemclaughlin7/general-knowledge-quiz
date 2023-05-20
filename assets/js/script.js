@@ -40,7 +40,6 @@ function showQuestion(quizQ, qCount) {
     resetAnswers();
 }
 
-nextQ.addEventListener('click', nextQuestion);
 /**
  * Loads next question. If last question will call showResult function.
  */
