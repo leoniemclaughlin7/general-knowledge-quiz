@@ -144,7 +144,6 @@ function showResult() {
     finalScore.innerHTML = score;
 }
 
-restartBtn.addEventListener('click', restartQuiz);
 /**
  * Restarts quiz once player has finished, sets user
  * score to zero and resets the question counter. 
