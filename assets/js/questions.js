@@ -133,7 +133,6 @@ const quizQuestion = [
         correctAnswer: "Chickpea"
     },
 
-
     {
         question: "What color dresses do Chinese women traditionally wear on their wedding day?",
         answers: [

@@ -12,16 +12,16 @@
 </head>
 
 <body>
+    <!--Header to include clickable logo that navigates back to the home page once clicked-->
+    <header>
+        <a href="index.html" aria-label="Navigates to the home page">
+            <h1 id="logo">
+                <i class="fa-solid fa-circle-question"></i>General Knowledge Quiz<i
+                    class="fa-solid fa-circle-question"></i>
+            </h1>
+        </a>
+    </header>
     <main>
-        <!--Header to include clickable logo that navigates back to the home page once clicked-->
-        <header>
-            <a href="index.html" aria-label="Navigates to the home page">
-                <h1 id="logo">
-                    <i class="fa-solid fa-circle-question"></i>General Knowledge Quiz<i
-                        class="fa-solid fa-circle-question"></i>
-                </h1>
-            </a>
-        </header>
         <!--Quiz area, includes questions, answers, next question button and score area-->
         <section id="quiz-area" class="hidden">
             <div id="count"></div>
@@ -52,7 +52,7 @@
                 <li>If you wish to restart the quiz click the logo.</li>
             </ul>
             <p><strong>Good Luck and have fun!</strong></p>
-            <button id="start-quiz" aria-label="Starts quiz" class="hover">Start Quiz</button>
+            <button onclick="startQuiz()" id="start-quiz" aria-label="Starts quiz" class="hover">Start Quiz</button>
         </section>
         <!--Result area. Informs the user that the quiz has finnished and informs them of their score, also includes a restart quiz button-->
         <section id="result-area" class="hidden">
@@ -60,16 +60,16 @@
             <h3>Your final score was: <span id="final-score">0</span> out of 20!</h3>
             <button id="restart-quiz" aria-label="Restarts Quiz" class="hover">Try again!</button>
         </section>
-        <!--Footer that includes link to my github-->
-        <footer>
-            <p>Designed by Leonie McLaughlin 2023
-                <a href="https://github.com/leoniemclaughlin7" target="_blank" rel="noopener"
-                    aria-label="Visit my github page, opens up in new tab">
-                    <i style="color: black;" class="fa-brands fa-github"></i>
-                </a>
-            </p>
-        </footer>
     </main>
+    <!--Footer that includes link to my github-->
+    <footer>
+        <p>Designed by Leonie McLaughlin 2023
+            <a href="https://github.com/leoniemclaughlin7" target="_blank" rel="noopener"
+                aria-label="Visit my github page, opens up in new tab">
+                <i style="color: black;" class="fa-brands fa-github"></i>
+            </a>
+        </p>
+    </footer>
     <!--Fontawesome script-->
     <script src="https://kit.fontawesome.com/23ee961b74.js" crossorigin="anonymous"></script>
     <!--JavaScript links-->

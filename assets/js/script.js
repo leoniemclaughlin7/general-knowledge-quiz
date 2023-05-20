@@ -16,7 +16,6 @@ let score = 0;
 var sec = 15;
 let time;
 
-startBtn.addEventListener('click', startQuiz);
 /**
  * starts the quiz when the start quiz button is clicked
  * hides the rules section and shows the quiz section. 
@@ -87,7 +86,6 @@ function getAnswer() {
         }
         clearInterval(time);
     }
-
 }
 
 /**
