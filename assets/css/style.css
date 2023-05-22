@@ -154,6 +154,7 @@ button:disabled {
     display: flex;
     justify-content: space-between;
     font-size: 125%;
+    margin-top: 10px;
 }
 
 /* Rules area */
@@ -186,6 +187,12 @@ h2 {
 
 /* Start and restart quiz button */
 
+#start-quiz-pos,
+#restart-quiz-pos {
+    display: flex;
+    justify-content: center;
+}
+
 #start-quiz,
 #restart-quiz {
     width: 300px;
@@ -193,7 +200,7 @@ h2 {
     background-color: #EE8434;
     border-radius: 15px;
     text-align: center;
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 0;
 }
 
 /* Result area  */
@@ -232,16 +239,8 @@ footer>p {
 @media screen and (max-width: 595px) {
 
     #quiz-area {
-        width: 300px;
+        width: 350px;
         font-size: 100%;
-    }
-
-    #next-question {
-        margin: 20px 0 0 3px;
-    }
-
-    #count {
-        margin: 0 0 20px 120px;
     }
 
     #rules-area {
@@ -252,10 +251,6 @@ footer>p {
     #result-area {
         width: 300px;
         font-size: 100%;
-    }
-
-    #restart-quiz {
-        margin: 20px 0 0 3px;
     }
 }
 
@@ -274,7 +269,6 @@ footer>p {
 
     #start-quiz {
         width: 200px;
-        margin: 20px 0 0 15px;
     }
 }
 
@@ -292,11 +286,6 @@ footer>p {
 
     #next-question {
         width: 225px;
-        margin: 20px 0 0 12px;
-    }
-
-    #count {
-        margin: 0 0 20px 90px;
     }
 
     #result-area {
@@ -306,7 +295,6 @@ footer>p {
 
     #restart-quiz {
         width: 225px;
-        margin: 20px 0 0 12px;
     }
 
     #logo {

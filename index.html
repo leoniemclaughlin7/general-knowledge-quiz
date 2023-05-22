@@ -63,14 +63,18 @@
                 <li>If you wish to restart the quiz click the logo.</li>
             </ul>
             <p><strong>Good Luck and have fun!</strong></p>
-            <button onclick="startQuiz()" id="start-quiz" aria-label="Starts quiz" class="hover">Start Quiz</button>
+            <div id="start-quiz-pos">
+                <button onclick="startQuiz()" id="start-quiz" aria-label="Starts quiz" class="hover">Start Quiz</button>
+            </div>
         </section>
         <!--Result area. Informs the user that the quiz has finnished and informs them of their score, also includes a restart quiz button-->
         <section id="result-area" class="hidden">
             <h3>You have completed the quiz</h3>
             <h3>Your final score was: <span id="final-score">0</span> out of 20!</h3>
-            <button onclick="restartQuiz()" id="restart-quiz" aria-label="Restarts Quiz" class="hover">Try
-                again!</button>
+            <div id="restart-quiz-pos">
+                <button onclick="restartQuiz()" id="restart-quiz" aria-label="Restarts Quiz" class="hover">Try
+                    again!</button>
+            </div>
         </section>
     </main>
     <!--Footer that includes link to my github-->
