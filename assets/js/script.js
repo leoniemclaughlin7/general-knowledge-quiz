@@ -24,6 +24,7 @@ function startQuiz() {
     quiz.classList.remove('hidden');
     rules.classList.add('hidden');
     showQuestion(quizQuestion, questionCounter);
+    questionCount();
     showScore();
     clearInterval(time);
     setTimer();
@@ -47,6 +48,7 @@ function nextQuestion() {
     questionCounter++;
     if (questionCounter < quizQuestion.length) {
         showQuestion(quizQuestion, questionCounter);
+        questionCount();
         showScore();
         clearInterval(time);
         setTimer();
@@ -155,7 +157,15 @@ function restartQuiz() {
     score = 0;
     questionCounter = 0;
     showQuestion(quizQuestion, questionCounter);
+    questionCount();
     showScore();
     clearInterval(time);
     setTimer();
+}
+
+/**
+ * Displays which question the user is on
+ */
+function questionCount() {
+    questionC.innerHTML = quizQuestion[questionCounter].count;
 }
