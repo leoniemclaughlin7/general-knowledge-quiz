@@ -124,12 +124,12 @@ button:disabled {
     font-size: 200%;
 }
 
-/* Score  */
+/* Score and question counter  */
 
-#scores {
+#score-questions {
     display: flex;
-    justify-content: flex-end;
-    font-size: 150%;
+    justify-content: space-between;
+    font-size: 125%;
 }
 
 /* Rules area */
