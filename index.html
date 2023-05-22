@@ -24,7 +24,9 @@
     <main>
         <!--Quiz area, includes questions, answers, next question button and score area-->
         <section id="quiz-area" class="hidden">
-            <div id="count"></div>
+            <div id="timer-pos">
+                <div id="count"></div>
+            </div>
             <div id="category-pos">
                 <P id="category">Category is: <span id="question-category"></span></P>
             </div>
@@ -39,8 +41,10 @@
                     <button class="answers hover"></button>
                 </div>
             </div>
-            <button onclick="nextQuestion()" id="next-question" aria-label="Loads next question" class="hover">Next
-                Question</button>
+            <div id="next-question-pos">
+                <button onclick="nextQuestion()" id="next-question" aria-label="Loads next question" class="hover">Next
+                    Question</button>
+            </div>
             <div id="score-questions">
                 <p id="questions">Question:<span id="question-counter">0</span>/20</p>
                 <p id="scores">Score:<span id="score">0</span></p>

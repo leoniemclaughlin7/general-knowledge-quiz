@@ -64,7 +64,7 @@ header>a {
 #answer-pos {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.5em;
 }
 
 .answers {
@@ -82,12 +82,17 @@ button:disabled {
 
 /* Next question button */
 
+#next-question-pos {
+    display: flex;
+    justify-content: center;
+}
+
 #next-question {
     width: 300px;
     height: 40px;
     background-color: #EE8434;
     border-radius: 15px;
-    margin: 20px 0 0 100px;
+    margin: 20px 0 0 0;
 }
 
 /* classes to display correct and incorrect answers as well as hiding and displaying content */
@@ -114,13 +119,18 @@ button:disabled {
 
 /* Timer */
 
+#timer-pos {
+    display: flex;
+    justify-content: center;
+}
+
 #count {
     border-radius: 50%;
     width: 50px;
     height: 45px;
     border: solid black 5px;
     text-align: center;
-    margin: 0 0 10px 210px;
+    margin: 0 0 10px 0;
     font-size: 200%;
 }
 
