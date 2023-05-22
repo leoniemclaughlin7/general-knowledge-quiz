@@ -240,7 +240,11 @@ footer>p {
 
     #quiz-area {
         width: 350px;
-        font-size: 100%;
+        font-size: 80%;
+    }
+
+    #count {
+        font-size: 200%;
     }
 
     #rules-area {
@@ -272,12 +276,16 @@ footer>p {
     }
 }
 
-/* For screen size 371px and down */
+/* For screen size 415px and down */
 
-@media screen and (max-width: 371px) {
+@media screen and (max-width: 415px) {
     #quiz-area {
         width: 250px;
         font-size: 80%;
+    }
+
+    #count {
+        font-size: 200%;
     }
 
     .answers {
@@ -306,10 +314,6 @@ footer>p {
 
 @media screen and (max-height: 730px) {
 
-    #quiz-area {
-        height: 410px;
-    }
-
     .answers {
         height: 30px;
     }
@@ -319,7 +323,37 @@ footer>p {
     }
 
     #next-question {
-        height: 30px
+        height: 30px;
+        margin: 10px 0 0 0;
     }
 
+}
+
+/* For screen height 654px and down */
+
+@media screen and (max-height: 654px) {
+    #rules-area {
+        font-size: 80%;
+    }
+
+    #quiz-area {
+        font-size: 80%;
+    }
+
+    #count {
+        font-size: 200%;
+    }
+
+    .answers {
+        height: 20px;
+    }
+
+    #answer-pos {
+        gap: 0.5em;
+    }
+
+    #next-question {
+        height: 20px;
+        margin: 5px 0 0 0;
+    }
 }
