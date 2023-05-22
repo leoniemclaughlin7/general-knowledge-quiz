@@ -241,6 +241,7 @@ footer {
 footer>p {
     margin-top: 30px;
     font-size: 110%;
+    font-family: 'Lora', serif;
 }
 
 /* Media queries  */
@@ -267,15 +268,15 @@ footer>p {
         width: 300px;
         font-size: 100%;
     }
+
+    #logo {
+        font-size: 150%;
+    }
 }
 
 /* For screen size 449px and down */
 
 @media screen and (max-width: 449px) {
-
-    #logo {
-        font-size: 150%;
-    }
 
     #rules-area {
         width: 250px;
