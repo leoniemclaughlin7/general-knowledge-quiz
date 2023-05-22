@@ -7,7 +7,23 @@ A live version of the project can be accessed here: [General Knowledge Quiz](htt
 
 <img src="assets/images/readme-images/mock-up-gkq.png">
 
+# User Experience Design
 
+## User Demographic
+
+This website is intended for:
+
+* Users that have a keen interest in general knowledge.
+* Users that would like to play a fun interactive quiz.
+* Users that wish to test their general knowledge.  
+
+## User Stories
+
+As a User of this website:
+
+* I want to play a fun quiz.
+* I want to test my general knowledge.
+* I want to learn some new facts and trivia.
 
 
 
