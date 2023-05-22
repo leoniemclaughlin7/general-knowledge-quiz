@@ -10,6 +10,7 @@ let result = document.getElementById('result-area');
 let finalScore = document.getElementById('final-score');
 let restartBtn = document.getElementById('restart-quiz');
 let questionC = document.getElementById('question-counter');
+let category = document.getElementById('question-category');
 
 let questionCounter = 0;
 let score = 0;
@@ -24,6 +25,7 @@ function startQuiz() {
     quiz.classList.remove('hidden');
     rules.classList.add('hidden');
     showQuestion(quizQuestion, questionCounter);
+    questionCategory();
     questionCount();
     showScore();
     clearInterval(time);
@@ -48,6 +50,7 @@ function nextQuestion() {
     questionCounter++;
     if (questionCounter < quizQuestion.length) {
         showQuestion(quizQuestion, questionCounter);
+        questionCategory();
         questionCount();
         showScore();
         clearInterval(time);
@@ -157,6 +160,7 @@ function restartQuiz() {
     score = 0;
     questionCounter = 0;
     showQuestion(quizQuestion, questionCounter);
+    questionCategory();
     questionCount();
     showScore();
     clearInterval(time);
@@ -168,4 +172,11 @@ function restartQuiz() {
  */
 function questionCount() {
     questionC.innerHTML = quizQuestion[questionCounter].count;
+}
+
+/**
+ * Displays the category of the question to the user
+ */
+function questionCategory() {
+    category.innerHTML = quizQuestion[questionCounter].category;
 }
