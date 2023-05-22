@@ -340,9 +340,9 @@ footer>p {
     }
 }
 
-/* For screen height 654px and down */
+/* For screen height 686px and down */
 
-@media screen and (max-height: 654px) {
+@media screen and (max-height: 686px) {
     #rules-area {
         font-size: 80%;
     }
