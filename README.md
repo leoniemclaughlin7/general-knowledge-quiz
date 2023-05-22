@@ -41,6 +41,19 @@ Wireframes were produced for the rules area, quiz area and result area on both d
 <img src="assets/images/readme-images/wireframe5.png">
 <img src="assets/images/readme-images/wireframe6.png">
 
+## Design
+
+The objective of this project was to design a quiz website that is easy to use, provides good feedback to the user and has a clean layout. A theme can be seen through this website, this was achieved by use of a colourful background and a range of different colours in the design.  
+
+### Colours
+
+The colour palette for this quiz website was  created by [Coolors.](https://coolors.co/) This colour palette was chosen as it complements the background and is consistent with the theme of the quiz. It consists of vibrant, however muted colours that give a retro feel to this quiz game.  
+
+<img src="assets/images/readme-images/coolors.png">
+
+### Typography
+
+The fonts for the site where imported from Google fonts. For the logo [Lora](https://fonts.google.com/specimen/Lora?query=Lora) was used. This font was chosen as it fit the aesthetic of the site, is readable and clear for the user. For the main content [Roboto](https://fonts.google.com/specimen/Roboto) was used. This font was chosen as it complements the logo whilst also being clean and easy to read for the user. Both fonts also have a second font of Serif and Sans-Serif set as a backup font.
 
 
 credits
