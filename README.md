@@ -25,6 +25,22 @@ As a User of this website:
 * I want to test my general knowledge.
 * I want to learn some new facts and trivia.
 
+## Wireframes
+
+Wireframes were produced for the rules area, quiz area and result area on both desktop and mobile. Some aspects of the wireframes have changed as the website was being produced.
+
+### Desktop 
+
+<img src="assets/images/readme-images/wireframe1.png">
+<img src="assets/images/readme-images/wireframe2.png">
+<img src="assets/images/readme-images/wireframe3.png">
+
+### Mobile 
+
+<img src="assets/images/readme-images/wireframe4.png">
+<img src="assets/images/readme-images/wireframe5.png">
+<img src="assets/images/readme-images/wireframe6.png">
+
 
 
 credits
