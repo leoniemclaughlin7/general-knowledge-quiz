@@ -120,8 +120,22 @@ button:disabled {
     height: 45px;
     border: solid black 5px;
     text-align: center;
-    margin: 0 0 20px 210px;
+    margin: 0 0 10px 210px;
     font-size: 200%;
+}
+
+#category-pos {
+    display: flex;
+    justify-content: center;
+}
+
+#category {
+    width: 300px;
+    font-size: 125%;
+    background-color: #EE8434;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
 }
 
 /* Score and question counter  */
