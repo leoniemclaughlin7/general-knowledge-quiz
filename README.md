@@ -108,6 +108,13 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/result-area.png">
 
+### Footer 
+
+* A footer is evident to the user throughout the quiz game.
+* It is styled similar to the header and contains a link to my GitHub.
+
+<img src="assets/images/readme-images/footer.png">
+
 
 
 
