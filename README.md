@@ -89,6 +89,21 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/quiz-area.png">
 
+* If the timer reaches Zero or the user chooses the correct answer, it will be highlighted in green to the user.
+* All answer buttons will loose their hover effect and become disabled, so the player cannot choose another answer.
+* A next question button with a hover effect will appear to the player to encourage them to move onto the next question.
+
+<img src="assets/images/readme-images/quiz-area1.png">
+
+* If the player chooses an incorrect answer, the answer they chose will be highlighted in red and the correct answer will be highlighted in green.
+* As with the timer reaching Zero and the player choosing the correct answer, all answer buttons will be disabled and the next question button will appear.
+
+<img src="assets/images/readme-images/quiz-area2.png">
+
+
+
+
+
 credits
 MCQ https://travelswithelle.com/other/multiple-choice-trivia-questions/ 
 Tutorial on how to build a quiz https://www.youtube.com/watch?v=RswgVWKJRLM 
