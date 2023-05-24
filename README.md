@@ -55,6 +55,21 @@ The colour palette for this quiz website was  created by [Coolors.](https://cool
 
 The fonts for the site where imported from Google fonts. For the logo [Lora](https://fonts.google.com/specimen/Lora?query=Lora) was used. This font was chosen as it fit the aesthetic of the site, is readable and clear for the user. For the main content [Roboto](https://fonts.google.com/specimen/Roboto) was used. This font was chosen as it complements the logo whilst also being clean and easy to read for the user. Both fonts also have a second font of Serif and Sans-Serif set as a backup font.
 
+# Features
+
+The general knowledge quiz site contains three main sections.  The main section is the quiz area which houses the most features. Each section will be described in detail below. The three main sections in this design are:
+
+* Rules area.  
+* Quiz area.
+* Result area.
+
+## Existing Features
+
+### Header and Logo
+
+* Featured throughout the site, the header contains a clickable logo, that will return the user to the rules area, which contains the start quiz button, at any point during the quiz game.
+
+<img src="assets/images/readme-images/header.png">
 
 credits
 MCQ https://travelswithelle.com/other/multiple-choice-trivia-questions/ 
