@@ -71,6 +71,15 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/header.png">
 
+### Rules area 
+
+* The rules area describes to the user how to play the quiz game.
+* It contains the start quiz button which navigates the user to the first question of the general knowledge quiz.
+
+<img src="assets/images/readme-images/rules-area.png">
+
+
+
 credits
 MCQ https://travelswithelle.com/other/multiple-choice-trivia-questions/ 
 Tutorial on how to build a quiz https://www.youtube.com/watch?v=RswgVWKJRLM 
