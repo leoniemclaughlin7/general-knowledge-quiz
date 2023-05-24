@@ -115,7 +115,14 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/footer.png">
 
+## Features Left to Implement
 
+* A leader board could be implemented to save the players scores.
+* A scoring system based on how fast the user answers the question would be a nice addition to have.
+* A way of having the questions change after a period of time could be implemented, to ensure the player can have a go at different questions.
+* A sign in could be implemented so players can sign in to the site and see their previous scores.
+
+[Back to top](#general-knowledge-quiz)
 
 
 
