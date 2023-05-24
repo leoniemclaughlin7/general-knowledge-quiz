@@ -78,7 +78,16 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/rules-area.png">
 
+### Quiz area 
 
+* The quiz area contains a countdown timer for each question. The user is given Fifteen seconds to answer each question.
+* The next feature evident is the the category section. Each question is giving a category and this changes depending on the question being asked.
+* There is a question area in which the question is posed to the user.
+* The answer section comprises of Four answer buttons containing the possible answers.  Each answer button has a hover effect when the user hovers over the button.
+* A question counter is present to provide feedback to the user to make them aware of which question they are on.
+* A score area is also present. If the player gets a question right their score will increment and they can keep track of their current score.
+
+<img src="assets/images/readme-images/quiz-area.png">
 
 credits
 MCQ https://travelswithelle.com/other/multiple-choice-trivia-questions/ 
