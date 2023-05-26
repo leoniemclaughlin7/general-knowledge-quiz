@@ -136,6 +136,14 @@ Testing of the functionality of the website can be seen in the following tables.
 | Header is responsive| Header will fit the length of screen on different screen sizes | Resized the browser and checked the header at different resolutions | pass
 | Logo is responsive| Logo will change in size to fit different screen widths | Resized the browser and checked the logo at different resolutions| pass
 
+### Rules area
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+| Rules area is responsive| Rules area will change to fit the screen size, down to 320px width and 555px height | Resized the browser and checked the rules area at different resolutions | pass
+| Start quiz button hover| A hover effect can be seen on the start quiz button when hovered over with mouse | Hovered over start quiz button | pass
+| Start quiz button clickable| Once clicked the start quiz button will navigate the player to the first question of the quiz | Clicked the start quiz button| pass
+
 
 
 
