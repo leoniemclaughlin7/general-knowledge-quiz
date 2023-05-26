@@ -144,6 +144,21 @@ Testing of the functionality of the website can be seen in the following tables.
 | Start quiz button hover| A hover effect can be seen on the start quiz button when hovered over with mouse | Hovered over start quiz button | pass
 | Start quiz button clickable| Once clicked the start quiz button will navigate the player to the first question of the quiz | Clicked the start quiz button| pass
 
+### Quiz area
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+| Timer | Timer will countdown from Fifteen for each question | Click either the start quiz or next question button, note the timer at Fifteen seconds counting down| pass
+|Category| Category will change depending on the question being asked | Check that the category changes when the question changes | pass
+| Answer buttons hover| A hover effect can be seen on the answer buttons when hovered over with mouse | Hover over answers button | pass
+| Answer buttons - correct answer| If the player chooses the correct answer the answer will be highlighted in green | Click the correct answer| pass
+| Answer buttons - incorrect answer| If the player chooses the incorrect answer the correct answer will be highlighted in Green and the incorrect answer in Red | Clicked the incorrect answer| pass
+| Answer buttons remove hover| Once an answer has been chosen the hover effect will be removed from the answer buttons | Click an answer| pass
+| Next question button| Once an answer has been chosen or the timer runs out the next question button will appear | Click an answer or let timer run to Zero| pass
+| Next question button hover| A hover effect can be seen on the next question button when hovered over with mouse | Hover over next question button | pass
+| Next question button clickable| Once clicked the next question button will display the next question to the player | Click the next question button | pass
+| Quiz area responsive | Quiz area will change to fit the screen size, down to 320px width and 530px height | Resized the browser and checked the quiz area at different resolutions | pass
+
 ### Result area
 
 |Feature | Expect | Action | Result |
