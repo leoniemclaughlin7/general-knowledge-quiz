@@ -144,6 +144,15 @@ Testing of the functionality of the website can be seen in the following tables.
 | Start quiz button hover| A hover effect can be seen on the start quiz button when hovered over with mouse | Hovered over start quiz button | pass
 | Start quiz button clickable| Once clicked the start quiz button will navigate the player to the first question of the quiz | Clicked the start quiz button| pass
 
+### Result area
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+| Result area is responsive| Result area will change to fit the screen size, down to 320px width | Resized the browser and checked the result area at different resolutions | pass
+|Score| Players score is displayed correctly corresponding to the score achieved | Tested different scores and checked with the score output | pass
+| Try again button hover| A hover effect can be seen on the try again button when hovered over with mouse | Hovered over try again button | pass
+| Try again button clickable| Once clicked the try again button will navigate the player to the first question of the quiz | Clicked the try again button| pass
+
 
 
 
