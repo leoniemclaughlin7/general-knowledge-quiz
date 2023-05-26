@@ -132,17 +132,17 @@ Testing of the functionality of the website can be seen in the following tables.
 
 |Feature  | Expect  | Action | Result |
 |--|--|--|--|
-| Logo  | When the logo is clicked it will return the user to the rules area |Clicked logo at different points in quiz | pass
-| Header is responsive| Header will fit the length of screen on different screen sizes | Resized the browser and checked the header at different resolutions | pass
-| Logo is responsive| Logo will change in size to fit different screen widths | Resized the browser and checked the logo at different resolutions| pass
+| Logo  | When the logo is clicked it will return the user to the rules area |Click logo at different points in quiz | pass
+| Header is responsive| Header will fit the length of screen on different screen sizes | Resize the browser and checked the header at different resolutions | pass
+| Logo is responsive| Logo will change in size to fit different screen widths | Resize the browser and checked the logo at different resolutions| pass
 
 ### Rules area
 
 |Feature | Expect | Action | Result |
 |--|--|--|--|
-| Rules area is responsive| Rules area will change to fit the screen size, down to 320px width and 555px height | Resized the browser and checked the rules area at different resolutions | pass
-| Start quiz button hover| A hover effect can be seen on the start quiz button when hovered over with mouse | Hovered over start quiz button | pass
-| Start quiz button clickable| Once clicked the start quiz button will navigate the player to the first question of the quiz | Clicked the start quiz button| pass
+| Rules area is responsive| Rules area will change to fit the screen size, down to 320px width and 555px height | Resize the browser and checked the rules area at different resolutions | pass
+| Start quiz button hover| A hover effect can be seen on the start quiz button when hovered over with mouse | Hover over start quiz button | pass
+| Start quiz button clickable| Once clicked the start quiz button will navigate the player to the first question of the quiz | Click the start quiz button| pass
 
 ### Quiz area
 
@@ -157,16 +157,16 @@ Testing of the functionality of the website can be seen in the following tables.
 | Next question button| Once an answer has been chosen or the timer runs out the next question button will appear | Click an answer or let timer run to Zero| pass
 | Next question button hover| A hover effect can be seen on the next question button when hovered over with mouse | Hover over next question button | pass
 | Next question button clickable| Once clicked the next question button will display the next question to the player | Click the next question button | pass
-| Quiz area responsive | Quiz area will change to fit the screen size, down to 320px width and 530px height | Resized the browser and checked the quiz area at different resolutions | pass
+| Quiz area responsive | Quiz area will change to fit the screen size, down to 320px width and 530px height | Resize the browser and checked the quiz area at different resolutions | pass
 
 ### Result area
 
 |Feature | Expect | Action | Result |
 |--|--|--|--|
-| Result area is responsive| Result area will change to fit the screen size, down to 320px width | Resized the browser and checked the result area at different resolutions | pass
-|Score| Players score is displayed correctly corresponding to the score achieved | Tested different scores and checked with the score output | pass
-| Try again button hover| A hover effect can be seen on the try again button when hovered over with mouse | Hovered over try again button | pass
-| Try again button clickable| Once clicked the try again button will navigate the player to the first question of the quiz | Clicked the try again button| pass
+| Result area is responsive| Result area will change to fit the screen size, down to 320px width | Resize the browser and checked the result area at different resolutions | pass
+|Score| Players score is displayed correctly corresponding to the score achieved | Test different scores and checked with the score output | pass
+| Try again button hover| A hover effect can be seen on the try again button when hovered over with mouse | Hover over try again button | pass
+| Try again button clickable| Once clicked the try again button will navigate the player to the first question of the quiz | Click the try again button| pass
 
 
 
