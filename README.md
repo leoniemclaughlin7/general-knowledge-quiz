@@ -133,8 +133,10 @@ Testing of the functionality of the website can be seen in the following tables.
 |Feature  | Expect  | Action | Result |
 |--|--|--|--|
 | Logo  | When the logo is clicked it will return the user to the rules area |Clicked logo at different points in quiz | pass
-| Header is responsive| Header will fit the length of screen on different screen sizes | Resized the browser and checked the header at different resoultions | pass
-| Logo is responsive| Logo will change in size to fit different screen widths | Resized the browser and checked the logo at different resoultions| pass
+| Header is responsive| Header will fit the length of screen on different screen sizes | Resized the browser and checked the header at different resolutions | pass
+| Logo is responsive| Logo will change in size to fit different screen widths | Resized the browser and checked the logo at different resolutions| pass
+
+
 
 
 
