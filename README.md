@@ -55,6 +55,8 @@ The colour palette for this quiz website was  created by [Coolors.](https://cool
 
 The fonts for the site where imported from Google fonts. For the logo [Lora](https://fonts.google.com/specimen/Lora?query=Lora) was used. This font was chosen as it fit the aesthetic of the site, is readable and clear for the user. For the main content [Roboto](https://fonts.google.com/specimen/Roboto) was used. This font was chosen as it complements the logo whilst also being clean and easy to read for the user. Both fonts also have a second font of Serif and Sans-Serif set as a backup font.
 
+[Back to top](#general-knowledge-quiz)
+
 # Features
 
 The general knowledge quiz site contains three main sections.  The main section is the quiz area which houses the most features. Each section will be described in detail below. The three main sections in this design are:
@@ -202,10 +204,11 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 |Could not position elements that had a height or width attribute with flexbox | fixed| Needed to wrap these elements in a div and position that div with flexbox
 |Section lacking heading| fixed| Changed the section to a div. This was a warning highlighted by the W3C validator
 |Problem using for loop with event listener in getAnswer function| fixed| Resolved by calling the event listener outside function and removing unnecessary parameters
-|When the height of the screen was reduced the start quiz and next question buttons where inaccessible| fixed |Resolved with the used of a media query with the max-height attribute|
-|Timer would not reset to Fifteen seconds on a new question| fixed |Resolved by resetting the timer to Fifteen in the setTimer function and nesting the runTimer function inside setTimer|
-|Disabled answers had a greyed out appearance| fixed |Using some simple CSS by targeting the disabled buttons and setting the colour to initial resolved this|
-|Using event listeners by class name| fixed |It was important to remember that in order to use an event listener by class name the elements in the class needed to be looped through|
+|When the height of the screen was reduced the start quiz and next question buttons where inaccessible| fixed |Resolved with the used of a media query with the max-height attribute
+|Timer would not reset to Fifteen seconds on a new question| fixed |Resolved by resetting the timer to Fifteen in the setTimer function and nesting the runTimer function inside setTimer
+|Disabled answers had a greyed out appearance| fixed |Using some simple CSS by targeting the disabled buttons and setting the colour to initial resolved this
+|Using event listeners by class name| fixed |It was important to remember that in order to use an event listener by class name the elements in the class needed to be looped through
+|Question counter could not be implemented using the variable questionCounter as it was counting from Zero| fixed |A new key pair was implemented in the quizQuestion object called count, this was used to display the question count to the player
 
 # Deployment
 
@@ -220,9 +223,18 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be accessed here: [General Knowledge Quiz](https://leoniemclaughlin7.github.io/general-knowledge-quiz/)
 
+# Credits
 
+### Images
 
-credits
-MCQ https://travelswithelle.com/other/multiple-choice-trivia-questions/ 
-Tutorial on how to build a quiz https://www.youtube.com/watch?v=RswgVWKJRLM 
-timer <https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz>
+* [Background image](https://i0.wp.com/www.additudemag.com/wp-content/uploads/2016/11/2267.jpg?resize=1280%2C720px&ssl=1)
+
+### Content
+
+* [Multiple choice questions](https://travelswithelle.com/other/multiple-choice-trivia-questions/)
+
+### Code
+
+* [Help with timer](<https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz>)
+* [Zenva - Creating a Basic Quiz - JavaScript Tutorial](https://www.youtube.com/watch?v=RswgVWKJRLM)
+* [Linear gradient](https://www.w3schools.com/CSSref/func_linear-gradient.php)

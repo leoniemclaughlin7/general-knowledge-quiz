@@ -24,7 +24,7 @@ let time;
 function startQuiz() {
     quiz.classList.remove('hidden');
     rules.classList.add('hidden');
-    showQuestion(quizQuestion, questionCounter);
+    showQuestion();
     questionCategory();
     questionCount();
     showScore();
@@ -33,12 +33,12 @@ function startQuiz() {
 }
 
 /**
- * Displays question and possible answers to the user, code help from youtube tutorial, link in readme.  
+ * Displays question and possible answers to the user, code help from youtube tutorial, link in README.md.  
  */
-function showQuestion(quizQ, qCount) {
-    question.textContent = quizQ[qCount].question;
+function showQuestion() {
+    question.textContent = quizQuestion[questionCounter].question;
     answers.forEach(function (element, index) {
-        element.textContent = quizQ[qCount].answers[index];
+        element.textContent = quizQuestion[questionCounter].answers[index];
     });
     resetAnswers();
 }
@@ -49,7 +49,7 @@ function showQuestion(quizQ, qCount) {
 function nextQuestion() {
     questionCounter++;
     if (questionCounter < quizQuestion.length) {
-        showQuestion(quizQuestion, questionCounter);
+        showQuestion();
         questionCategory();
         questionCount();
         showScore();
@@ -119,7 +119,7 @@ function disableAnswers() {
 
 /**
  * Sets the timer, second function runs the timer and will show
- * user correct answer if they have run out of time. 
+ * user correct answer if they have run out of time. Code inspiration from Stackoverflow link in README.md. 
  */
 function setTimer() {
     time = setInterval(runTimer, 1000);
@@ -159,7 +159,7 @@ function restartQuiz() {
     rules.classList.add('hidden');
     score = 0;
     questionCounter = 0;
-    showQuestion(quizQuestion, questionCounter);
+    showQuestion();
     questionCategory();
     questionCount();
     showScore();
