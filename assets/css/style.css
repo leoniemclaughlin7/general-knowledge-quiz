@@ -291,6 +291,7 @@ footer>p {
 /* For screen size 415px and down */
 
 @media screen and (max-width: 415px) {
+
     #quiz-area {
         width: 250px;
         font-size: 80%;
@@ -343,6 +344,7 @@ footer>p {
 /* For screen height 686px and down */
 
 @media screen and (max-height: 686px) {
+
     #rules-area {
         font-size: 70%;
     }

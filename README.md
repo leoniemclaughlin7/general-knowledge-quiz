@@ -150,7 +150,7 @@ Testing of the functionality of the website can be seen in the following tables.
 |--|--|--|--|
 | Timer | Timer will countdown from Fifteen for each question | Click either the start quiz or next question button, note the timer at Fifteen seconds counting down| pass
 |Category| Category will change depending on the question being asked | Check that the category changes when the question changes | pass
-| Answer buttons hover| A hover effect can be seen on the answer buttons when hovered over with mouse | Hover over answers button | pass
+| Answer buttons hover| A hover effect can be seen on the answer buttons when hovered over with mouse | Hover over answer buttons | pass
 | Answer buttons - correct answer| If the player chooses the correct answer the answer will be highlighted in green | Click the correct answer| pass
 | Answer buttons - incorrect answer| If the player chooses the incorrect answer the correct answer will be highlighted in Green and the incorrect answer in Red | Clicked the incorrect answer| pass
 | Answer buttons remove hover| Once an answer has been chosen the hover effect will be removed from the answer buttons | Click an answer| pass
@@ -167,6 +167,13 @@ Testing of the functionality of the website can be seen in the following tables.
 |Score| Players score is displayed correctly corresponding to the score achieved | Test different scores and checked with the score output | pass
 | Try again button hover| A hover effect can be seen on the try again button when hovered over with mouse | Hover over try again button | pass
 | Try again button clickable| Once clicked the try again button will navigate the player to the first question of the quiz | Click the try again button| pass
+
+### Footer
+
+|Feature | Expect | Action | Result |
+|--|--|--|--|
+| GitHub link clickable | When clicked the GitHub icon will open a new window to my GitHub repository | Click the GitHub icon| pass
+| Footer responsive | Footer will fit the screen size, down to 320px width| Resized the browser and checked the footer at different resolutions | pass
 
 
 
