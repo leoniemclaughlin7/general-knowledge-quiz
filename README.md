@@ -238,3 +238,9 @@ The live link can be accessed here: [General Knowledge Quiz](https://leoniemclau
 * [Help with timer](<https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz>)
 * [Zenva - Creating a Basic Quiz - JavaScript Tutorial](https://www.youtube.com/watch?v=RswgVWKJRLM)
 * [Linear gradient](https://www.w3schools.com/CSSref/func_linear-gradient.php)
+
+# Acknowledgements
+
+I would like to thank my mentor Lauren-Nicole Popich, the Code Institute team and the Slack community.  
+
+[Back to top](#general-knowledge-quiz)
