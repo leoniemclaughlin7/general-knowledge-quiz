@@ -7,6 +7,43 @@ A live version of the project can be accessed here: [General Knowledge Quiz](htt
 
 <img src="assets/images/readme-images/mock-up-gkq.png">
 
+# Table Of Contents
+
+* [User Experience Design](#user-experience-design)
+  * [User Demographic](#user-demographic)
+  * [User Stories](#user-stories)
+  * [Wireframes](#wireframes)
+    * [Desktop](#desktop)
+    * [Mobile](#mobile)
+  * [Design](#design)
+    * [Colours](#colours)
+    * [Typography](#typography)
+* [Features](#features)
+  * [Existing Features](#existing-features)
+    * [Header and Logo](#header-and-logo)
+    * [Rules area](#rules-area)
+    * [Quiz area](#quiz-area)
+    * [Result area](#result-area)
+    * [Footer](#footer)
+  * [Features Left to Implement](#features-left-to-implement)
+* [Testing](#testing)
+  * [Header and Logo](#header-and-logo-1)
+  * [Rules area](#rules-area-1)
+  * [Quiz area](#quiz-area-1)
+  * [Result area](#result-area-1)
+  * [Footer](#footer-1)
+  * [Validator Testing](#validator-testing)
+    * [HTML](#html)
+    * [CSS](#css)
+    * [Lighthouse Testing](#lighthouse-testing)
+* [known Bugs](#known-bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+  * [Images](#images)
+  * [Content](#content)
+  * [Code](#code)
+* [Acknowledgements](#acknowledgements)
+
 # User Experience Design
 
 ## User Demographic
@@ -29,13 +66,13 @@ As a User of this website:
 
 Wireframes were produced for the rules area, quiz area and result area on both desktop and mobile. Some aspects of the wireframes have changed as the website was being produced.
 
-### Desktop 
+### Desktop
 
 <img src="assets/images/readme-images/wireframe1.png">
 <img src="assets/images/readme-images/wireframe2.png">
 <img src="assets/images/readme-images/wireframe3.png">
 
-### Mobile 
+### Mobile
 
 <img src="assets/images/readme-images/wireframe4.png">
 <img src="assets/images/readme-images/wireframe5.png">
@@ -73,14 +110,14 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/header.png">
 
-### Rules area 
+### Rules area
 
 * The rules area describes to the user how to play the quiz game.
 * It contains the start quiz button which navigates the user to the first question of the general knowledge quiz.
 
 <img src="assets/images/readme-images/rules-area.png">
 
-### Quiz area 
+### Quiz area
 
 * The quiz area contains a countdown timer for each question. The user is given Fifteen seconds to answer each question.
 * The next feature evident is the the category section. Each question is giving a category and this changes depending on the question being asked.
@@ -102,7 +139,7 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/quiz-area2.png">
 
-### Result area 
+### Result area
 
 * When the player finishes the quiz they are directed to the result area.
 * In this area they are informed that they have completed the quiz and their score out of Twenty is displayed.
@@ -110,7 +147,7 @@ The general knowledge quiz site contains three main sections.  The main section 
 
 <img src="assets/images/readme-images/result-area.png">
 
-### Footer 
+### Footer
 
 * A footer is evident to the user throughout the quiz game.
 * It is styled similar to the header and contains a link to my GitHub.
