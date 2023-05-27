@@ -193,6 +193,22 @@ No errors were returned when the site was passed through the official [Jigsaw va
 
 <img src="assets/images/readme-images/lighthouse.png">
 
+# known Bugs
+
+All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
+
+|Bug  | Status | Solution  |
+|--|--|--|
+|Could not position elements that had a height or width attribute with flexbox | fixed| Needed to wrap these elements in a div and position that div with flexbox
+|Section lacking heading| fixed| Changed the section to a div. This was a warning highlighted by the W3C validator
+|Problem using for loop with event listener in getAnswer function| fixed| Resolved by calling the event listener outside function and removing unnecessary parameters
+|When the height of the screen was reduced the start quiz and next question buttons where inaccessible| fixed |Resolved with the used of a media query with the max-height attribute|
+|Timer would not reset to Fifteen seconds on a new question| fixed |Resolved by resetting the timer to Fifteen in the setTimer function and nesting the runTimer function inside setTimer|
+|Disabled answers had a greyed out appearance| fixed |Using some simple CSS by targeting the disabled buttons and setting the colour to initial resolved this|
+|Using event listeners by class name| fixed |It was important to remember that in order to use an event listener by class name the elements in the class needed to be looped through|
+
+
+
 
 
 credits
