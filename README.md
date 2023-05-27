@@ -179,11 +179,15 @@ Testing of the functionality of the website can be seen in the following tables.
 
 ### HTML
 
-No errors were returned when site was passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleoniemclaughlin7.github.io%2Fgeneral-knowledge-quiz%2F)
+No errors were returned when the site was passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleoniemclaughlin7.github.io%2Fgeneral-knowledge-quiz%2F)
 
 <img src="assets/images/readme-images/w3c-validator.png">
 
+### CSS
 
+No errors were returned when the site was passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleoniemclaughlin7.github.io%2Fgeneral-knowledge-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+<img src="assets/images/readme-images/jigsaw-validator.png">
 
 
 
