@@ -133,7 +133,7 @@ Testing of the functionality of the website can be seen in the following tables.
 |Feature  | Expect  | Action | Result |
 |--|--|--|--|
 | Logo  | When the logo is clicked it will return the user to the rules area |Click logo at different points in quiz | pass
-| Header is responsive| Header will fit the length of screen on different screen sizes | Resize the browser and checked the header at different resolutions | pass
+| Header is responsive| Header will fit the length of screen on different screen sizes down to a width of 320px | Resize the browser and checked the header at different resolutions | pass
 | Logo is responsive| Logo will change in size to fit different screen widths | Resize the browser and checked the logo at different resolutions| pass
 
 ### Rules area
@@ -174,6 +174,14 @@ Testing of the functionality of the website can be seen in the following tables.
 |--|--|--|--|
 | GitHub link clickable | When clicked the GitHub icon will open a new window to my GitHub repository | Click the GitHub icon| pass
 | Footer responsive | Footer will fit the screen size, down to 320px width| Resized the browser and checked the footer at different resolutions | pass
+
+## Validator Testing
+
+### HTML
+
+No errors were returned when site was passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleoniemclaughlin7.github.io%2Fgeneral-knowledge-quiz%2F)
+
+<img src="assets/images/readme-images/w3c-validator.png">
 
 
 
