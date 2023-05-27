@@ -207,7 +207,18 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 |Disabled answers had a greyed out appearance| fixed |Using some simple CSS by targeting the disabled buttons and setting the colour to initial resolved this|
 |Using event listeners by class name| fixed |It was important to remember that in order to use an event listener by class name the elements in the class needed to be looped through|
 
+# Deployment
 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Navigate to GitHub.
+2. Choose the desired GitHub repository.
+3. Select settings from the top menu bar.
+4. On the left hand side, under the code and automation section, choose pages.
+5. Under the build and deployment heading, set branch as main and click save.
+6. The website will deploy, a link to the project will be seen at the top of the page.
+
+The live link can be accessed here: [General Knowledge Quiz](https://leoniemclaughlin7.github.io/general-knowledge-quiz/)
 
 
 
