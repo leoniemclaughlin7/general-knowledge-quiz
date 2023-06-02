@@ -36,6 +36,7 @@ A live version of the project can be accessed here: [General Knowledge Quiz](htt
     * [HTML](#html)
     * [CSS](#css)
     * [Lighthouse Testing](#lighthouse-testing)
+    * [JSHint](#jshint)
 * [known Bugs](#known-bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -234,8 +235,10 @@ No errors were returned when the site was passed through the official [Jigsaw va
 
 ### JSHint
 
-No errors where returned when the JavaScript files where passed through the official [JSHint validator](https://jshint.com/), however some warings are present. The warings relate to the use of let and const when defining variables. I was advised to ignore these warnings. JSHint also declares that there is Three unused variables, however these relate to functions which are called with onclick attributes in the index.html file. 
+No errors where returned when the JavaScript files where passed through the official [JSHint validator](https://jshint.com/), however some warnings are present. The warnings relate to the use of let and const when defining variables. I was advised to ignore these warnings. JSHint also declares that there is Three unused variables, however these relate to functions which are called with onclick attributes in the index.html file.
+The metrics from JSHint can be seen below.
 
+<img src="assets/images/readme-images/jshint.png">
 # known Bugs
 
 All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
