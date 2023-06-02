@@ -235,10 +235,10 @@ No errors were returned when the site was passed through the official [Jigsaw va
 
 ### JSHint
 
-No errors where returned when the JavaScript files where passed through the official [JSHint validator](https://jshint.com/), however some warnings are present. The warnings relate to the use of let and const when defining variables. I was advised to ignore these warnings. JSHint also declares that there is Three unused variables, however these relate to functions which are called with onclick attributes in the index.html file.
-The metrics from JSHint can be seen below.
+No errors where returned when the JavaScript files where passed through the official [JSHint validator](https://jshint.com/), however some warnings are present. The warnings relate to the use of let and const when defining variables. I was advised to ignore these warnings. JSHint also declares that there is Three unused variables, however these relate to functions which are called with onclick attributes in the index.html file. The metrics from JSHint can be seen below.
 
 <img src="assets/images/readme-images/jshint.png">
+
 # Known Bugs
 
 All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
@@ -248,7 +248,7 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 |Could not position elements that had a height or width attribute with flexbox | fixed| Needed to wrap these elements in a div and position that div with flexbox
 |Section lacking heading| fixed| Changed the section to a div. This was a warning highlighted by the W3C validator
 |Problem using for loop with event listener in getAnswer function| fixed| Resolved by calling the event listener outside function and removing unnecessary parameters
-|When the height of the screen was reduced the start quiz and next question buttons where inaccessible| fixed |Resolved with the use of a media query with the max-height attribute
+|When the height of the screen was reduced the start quiz and next question buttons where inaccessible| fixed |Resolved by adding a container around the quiz and rules area and positioned with flexbox so the screen would become scrollable
 |Timer would not reset to Fifteen seconds on a new question| fixed |Resolved by resetting the timer to Fifteen in the setTimer function and nesting the runTimer function inside setTimer
 |Disabled answers had a greyed out appearance| fixed |Using some simple CSS by targeting the disabled buttons and setting the colour to initial resolved this
 |Using event listeners by class name| fixed |It was important to remember that in order to use an event listener by class name the elements in the class needed to be looped through
