@@ -239,7 +239,7 @@ No errors where returned when the JavaScript files where passed through the offi
 The metrics from JSHint can be seen below.
 
 <img src="assets/images/readme-images/jshint.png">
-# known Bugs
+# Known Bugs
 
 All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
 
