@@ -3,12 +3,10 @@ let answers = document.querySelectorAll('.answers');
 let scores = document.getElementById("score");
 let nextQ = document.getElementById('next-question');
 let timer = document.getElementById('count');
-let startBtn = document.getElementById('start-quiz');
 let quiz = document.getElementById('quiz-area');
 let rules = document.getElementById('rules-area');
 let result = document.getElementById('result-area');
 let finalScore = document.getElementById('final-score');
-let restartBtn = document.getElementById('restart-quiz');
 let questionC = document.getElementById('question-counter');
 let category = document.getElementById('question-category');
 
