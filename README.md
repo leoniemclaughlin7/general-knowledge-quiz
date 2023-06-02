@@ -232,6 +232,10 @@ No errors were returned when the site was passed through the official [Jigsaw va
 
 <img src="assets/images/readme-images/lighthouse.png">
 
+### JSHint
+
+No errors where returned when the JavaScript files where passed through the official [JSHint validator](https://jshint.com/), however some warings are present. The warings relate to the use of let and const when defining variables. I was advised to ignore these warnings. JSHint also declares that there is Three unused variables, however these relate to functions which are called with onclick attributes in the index.html file. 
+
 # known Bugs
 
 All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
