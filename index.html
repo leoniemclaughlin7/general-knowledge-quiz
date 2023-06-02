@@ -25,50 +25,54 @@
     </header>
     <main>
         <!--Quiz area, includes questions, answers, next question button, category and score area-->
-        <div id="quiz-area" class="hidden">
-            <div id="timer-pos">
-                <div id="count"></div>
-            </div>
-            <div id="category-pos">
-                <P id="category">Category is: <span id="question-category"></span></P>
-            </div>
-            <div id="question-area">
-                <div id="question"></div>
-            </div>
-            <div id="answer-area">
-                <div id="answer-pos">
-                    <button class="answers hover" value="answer-btn"></button>
-                    <button class="answers hover" value="answer-btn"></button>
-                    <button class="answers hover" value="answer-btn"></button>
-                    <button class="answers hover" value="answer-btn"></button>
+        <div id="quiz-rules-pos">
+            <div id="quiz-area" class="hidden">
+                <div id="timer-pos">
+                    <div id="count"></div>
+                </div>
+                <div id="category-pos">
+                    <P id="category">Category is: <span id="question-category"></span></P>
+                </div>
+                <div id="question-area">
+                    <div id="question"></div>
+                </div>
+                <div id="answer-area">
+                    <div id="answer-pos">
+                        <button class="answers hover" value="answer-btn"></button>
+                        <button class="answers hover" value="answer-btn"></button>
+                        <button class="answers hover" value="answer-btn"></button>
+                        <button class="answers hover" value="answer-btn"></button>
+                    </div>
+                </div>
+                <div id="next-question-pos">
+                    <button onclick="nextQuestion()" id="next-question" aria-label="Loads next question"
+                        class="hover">Next
+                        Question</button>
+                </div>
+                <div id="score-questions">
+                    <p id="questions">Question:<span id="question-counter">0</span>/20</p>
+                    <p id="scores">Score:<span id="score">0</span></p>
                 </div>
             </div>
-            <div id="next-question-pos">
-                <button onclick="nextQuestion()" id="next-question" aria-label="Loads next question" class="hover">Next
-                    Question</button>
-            </div>
-            <div id="score-questions">
-                <p id="questions">Question:<span id="question-counter">0</span>/20</p>
-                <p id="scores">Score:<span id="score">0</span></p>
-            </div>
+            <!--Quiz rules area. Welcomes the user to the quiz, explains the rules and includes start quiz button-->
+            <section id="rules-area">
+                <h2>Welcome</h2>
+                <p id="welcome-paragraph">This is a fun interactive general knowledge quiz</p>
+                <h2>Quiz Rules</h2>
+                <ul id="rules-list">
+                    <li>There are 20 questions in this quiz.</li>
+                    <li>Every question has 4 options but only 1 is right.</li>
+                    <li>You have 15 seconds to answer each question.</li>
+                    <li>Once you pick an answer, you cannot change your answer.</li>
+                    <li>If you wish to restart the quiz click the logo.</li>
+                </ul>
+                <p><strong>Good Luck and have fun!</strong></p>
+                <div id="start-quiz-pos">
+                    <button onclick="startQuiz()" id="start-quiz" aria-label="Starts quiz" class="hover">Start
+                        Quiz</button>
+                </div>
+            </section>
         </div>
-        <!--Quiz rules area. Welcomes the user to the quiz, explains the rules and includes start quiz button-->
-        <section id="rules-area">
-            <h2>Welcome</h2>
-            <p id="welcome-paragraph">This is a fun interactive general knowledge quiz</p>
-            <h2>Quiz Rules</h2>
-            <ul id="rules-list">
-                <li>There are 20 questions in this quiz.</li>
-                <li>Every question has 4 options but only 1 is right.</li>
-                <li>You have 15 seconds to answer each question.</li>
-                <li>Once you pick an answer, you cannot change your answer.</li>
-                <li>If you wish to restart the quiz click the logo.</li>
-            </ul>
-            <p><strong>Good Luck and have fun!</strong></p>
-            <div id="start-quiz-pos">
-                <button onclick="startQuiz()" id="start-quiz" aria-label="Starts quiz" class="hover">Start Quiz</button>
-            </div>
-        </section>
         <!--Result area. Informs the user that the quiz has finnished and informs them of their score, also includes a restart quiz button-->
         <section id="result-area" class="hidden">
             <h3>You have completed the quiz</h3>
