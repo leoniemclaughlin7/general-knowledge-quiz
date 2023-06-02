@@ -121,7 +121,7 @@ The general knowledge quiz site contains three main sections.  The main section 
 ### Quiz area
 
 * The quiz area contains a countdown timer for each question. The user is given Fifteen seconds to answer each question.
-* The next feature evident is the the category section. Each question is giving a category and this changes depending on the question being asked.
+* The next feature evident is the category section. Each question is giving a category and this changes depending on the question being asked.
 * There is a question area in which the question is posed to the user.
 * The answer section comprises of Four answer buttons containing the possible answers.  Each answer button has a hover effect when the user hovers over the button.
 * A question counter is present to provide feedback to the user to make them aware of which question they are on.
@@ -130,7 +130,7 @@ The general knowledge quiz site contains three main sections.  The main section 
 <img src="assets/images/readme-images/quiz-area.png">
 
 * If the timer reaches Zero or the user chooses the correct answer, it will be highlighted in green to the user.
-* All answer buttons will loose their hover effect and become disabled, so the player cannot choose another answer.
+* All answer buttons will lose their hover effect and become disabled, so the player cannot choose another answer.
 * A next question button with a hover effect will appear to the player to encourage them to move onto the next question.
 
 <img src="assets/images/readme-images/quiz-area1.png">
@@ -248,7 +248,7 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 |Could not position elements that had a height or width attribute with flexbox | fixed| Needed to wrap these elements in a div and position that div with flexbox
 |Section lacking heading| fixed| Changed the section to a div. This was a warning highlighted by the W3C validator
 |Problem using for loop with event listener in getAnswer function| fixed| Resolved by calling the event listener outside function and removing unnecessary parameters
-|When the height of the screen was reduced the start quiz and next question buttons where inaccessible| fixed |Resolved with the used of a media query with the max-height attribute
+|When the height of the screen was reduced the start quiz and next question buttons where inaccessible| fixed |Resolved with the use of a media query with the max-height attribute
 |Timer would not reset to Fifteen seconds on a new question| fixed |Resolved by resetting the timer to Fifteen in the setTimer function and nesting the runTimer function inside setTimer
 |Disabled answers had a greyed out appearance| fixed |Using some simple CSS by targeting the disabled buttons and setting the colour to initial resolved this
 |Using event listeners by class name| fixed |It was important to remember that in order to use an event listener by class name the elements in the class needed to be looped through
